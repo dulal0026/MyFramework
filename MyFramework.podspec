@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "This framework is for login MyFramework."
   spec.description  = "This framework is very useful for auth.any user can use it for login user."
   spec.homepage     = "https://github.com/dulal0026/MyFramework.git"
-  spec.license      = "MIT"
+  spec.license = { :type => "MIT", :file => "LICENSE.txt" }
   spec.author             = { "Dulal Hossain" => "dulal0026@gmail.com" }
   spec.platform     = :ios, "14.1"
   spec.source       = { :git => "https://github.com/dulal0026/MyFramework.git", :tag => spec.version.to_s }
